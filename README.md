@@ -5,6 +5,8 @@ ShortStories Web App
 Welcome to ShortStories, a dynamic web application created using the power of ReactJS. Dive into a captivating world of short stories where imagination knows no bounds. With our user-friendly interface and seamless navigation, the joy of reading is at your fingertips.
 Technologies Used
 
+Built with [Short Stories API](https://github.com/GautamPatil1/Short_Stories_API)
+
 ShortStories is built with cutting-edge technologies to provide you with an unparalleled reading experience:
 
     ReactJS: The highly efficient and flexible JavaScript library that powers our web app, ensuring lightning-fast performance and a seamless user interface.
