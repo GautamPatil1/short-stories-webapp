@@ -1,0 +1,8 @@
+{
+    "appId": "io.ionic.short-stories",
+    "appName": "short-stories",
+    "bundledWebRuntime": false,
+    "npmClient": "npm",
+    "webDir": "build",
+    "cordova": {}
+  }

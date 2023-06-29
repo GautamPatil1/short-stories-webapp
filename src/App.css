@@ -1,0 +1,23 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+
+.container{
+  height: 100rem;
+  margin-left: 15%;
+  margin-right: 15%;
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+}
+
+.solid-container{
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+}
+
+@media screen and (max-width: 768px){
+  .container{
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

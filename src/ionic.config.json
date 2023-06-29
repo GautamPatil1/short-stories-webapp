@@ -1,0 +1,7 @@
+{
+    "name": "short-stories",
+    "integrations": {
+      "capacitor": {}
+    },
+    "type": "react"
+  }

@@ -1,0 +1,66 @@
+
+.banner{
+    display: flex;
+}
+
+.image{
+
+    background-color: black;
+    height:250px;
+    width: 175px;
+    margin: auto;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.image img{
+    height: 100%;
+    width: 100%;
+}
+
+.info{
+    margin-left: 20px;
+    border-radius: 1rem;
+    background-color: transparent;
+    padding:10px;
+    height: 250px;
+    min-width: 500px;
+    max-width: 600px;
+    line-height: normal;
+}
+
+.covername{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.genre{
+    margin-top: 2rem;
+    font-size: 1rem;
+    font-weight: lighter;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.author{
+    font-size: 1rem;
+    font-weight: lighter;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.description{
+    font-size: 1rem;
+    font-weight: light;
+    color: white;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 758px) {
+    .banner{
+        flex-direction: column;
+    }
+    
+}

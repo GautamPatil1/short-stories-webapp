@@ -1,0 +1,65 @@
+.carousel-{
+    background-color: transparent;
+    margin-bottom: 2rem;
+    color:white
+}
+
+.book-container{
+    display: flex;
+}
+
+.book-card{
+    width: 100%;
+    background-color: transparent;
+    padding: .4rem;
+}
+
+.top-info{
+    display: flex;
+    justify-content: space-between;
+    padding-left: .75rem;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.genre-tag{
+    font-size: 25px;
+}
+
+.more{
+    padding-top: 10px;
+    margin:0;
+    font-size: 20px;
+    padding-right:1rem;
+
+}
+
+.more a{
+    text-decoration: none;
+    color:white;
+}
+
+.more a:hover{
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px){
+    .carousel-{
+        background-color: transparent;
+        margin-bottom: 2rem;
+        color:white
+        
+    }
+    .book-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+    }
+}
+
+
+
+
+

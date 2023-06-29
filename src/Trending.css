@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&family=Roboto:wght@400&display=swap');
+
+.trending{
+    background-color: blue;
+    height: 20%;
+}
+
+/* RESET CSS */
+* {margin: 0; padding: 0;}
+
+/* CAROUSEL CSS */
+.carousel {position: relative;
+  background-color: transparent;
+  border: white solid 2px;
+}
+.carousel ul{
+  background-color: transparent;
+}
+.carousel::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  box-shadow: inset 0px 0px 120px 30px rgba(0,0,0,0.35);
+  width: 100%;
+  pointer-events: none;
+}
+.carousel ul {
+  overflow: auto; 
+  display: flex; 
+  height: 20vw;
+  scroll-snap-type: x mandatory;
+  scroll-snap-points-y: repeat(100%);
+  scroll-behavior: smooth;
+  background-color: transparent;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  width: 100%;
+}
+.carousel ul::-webkit-scrollbar {display: none; /* Hide scrollbar for Chrome, Safari and Opera */} 
+.carousel ul li {
+  width: 100%;
+  min-width: 100%; 
+  list-style: none; 
+  background:  center center / cover no-repeat; 
+  scroll-snap-align: start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: left;
+  text-shadow: 0px 0px 10px rgba(0,0,0,0.75);
+}
+.carousel ul li div {z-index: 9;}
+.carousel ul li div a {color: white; display: inline-block; background: white; text-shadow: none; color: black; padding: 5px 15px; font-size: 18px; text-decoration: none; border-radius: 4px; margin-top: 10px;}
+.carousel ol {position: absolute; bottom: 15px; display: flex; justify-content: center; left: 50%; transform: translateX(-50%); z-index: 9;}
+.carousel ol li {list-style: none; padding: 0 5px;}
+.carousel ol li a {display: block; height: 10px; width: 10px; border: 2px solid white; background: transparent; border-radius: 100%;}
+.carousel ol li.selected a {background: white;}
+.carousel .prev, .carousel .next {user-select:none; cursor: pointer; font-size: 50px; color: white; position: absolute; left: 0; padding: 15px; top: 50%; transform: translateY(-50%); z-index: 9;}
+.carousel .next {left: auto; right: 0;}
+
+/* RESPONSIVE CSS */
+@media only screen and (max-width: 600px) {
+  .carousel ul li div {display: none;}
+}
+
+/* DEMO CSS */
+.carousel ul li:nth-child(2) {background-color: transparent;}
+.carousel ul li:nth-child(3) {background-color: transparent;}
+.carousel ul li:nth-child(4) {background-color: transparent;}
+p, h2 {margin: 15px auto; padding: 0 15px; max-width: 800px;}
+h2 {margin-top: 30px;}
+
+.banner{
+    display: flex;
+    justify-content: space-around;
+}
+
+.image{
+    width: 50%;
+    height: 100%;
+}
+
+.info{
+    height: 100%;
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (max-width: 768px){
+    
+    .image{
+        width: 100%;
+        height: 50%;
+    }
+    .info{
+        width: 100%;
+        height: 50%;
+    }
+}
+  
+@media screen and (max-width: 758px) {
+  .carousel{
+      display: none;
+  }
+}

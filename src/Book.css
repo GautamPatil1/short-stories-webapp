@@ -1,0 +1,52 @@
+.book-container-reader{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    margin-right: 15%;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-color: gray;
+}
+
+.book-name{
+    font-size: 50px;
+}
+
+.book-image{
+    justify-self: center;
+    
+}
+
+.book-author{
+    padding: 1rem;
+    font-size: larger;
+}
+
+.book-content{
+    white-space: pre-line;
+    font-size: 20px;
+    padding: 2.5rem;
+    width: 100%;    
+}
+.book-content::after {
+    content: "'";
+    display: block;
+    margin-bottom: 1.5rem; /* Adjust the value as needed */
+}
+
+@media screen and (max-width: 768px){
+    .book-container-reader{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .book-content{
+        padding: 1rem;
+    }
+}

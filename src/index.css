@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  background-image: url('https://i.pinimg.com/originals/c3/09/2a/c3092abcec0a20bce0d58930f61f0364.jpg');
+  position: relative;
+  background-size: cover;
+}
