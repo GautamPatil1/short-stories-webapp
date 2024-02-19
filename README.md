@@ -25,10 +25,10 @@ Discover an extensive collection of short stories spanning various genres, inclu
 
 To explore the enchanting world of short stories on ShortStories, follow these simple steps:
 
-    Clone this GitHub repository: git clone https://github.com/your-username/shortstories-web-app.git
-    Install the necessary dependencies: npm install
-    Start the development server: npm start
-    Open your preferred web browser and visit http://localhost:3000 to access the ShortStories web app.
+- Clone this GitHub repository: git clone https://github.com/your-username/shortstories-web-app.git
+- Install the necessary dependencies: npm install
+- Start the development server: npm start
+- Open your preferred web browser and visit http://localhost:3000 to access the ShortStories web app.
 
 ## Contribution
 
