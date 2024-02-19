@@ -9,10 +9,12 @@ Built with [Short Stories API](https://github.com/GautamPatil1/Short_Stories_API
 
 ShortStories is built with cutting-edge technologies to provide you with an unparalleled reading experience:
 
-    ReactJS: The highly efficient and flexible JavaScript library that powers our web app, ensuring lightning-fast performance and a seamless user interface.
-    HTML5 & CSS3: The building blocks of our visually stunning and immersive user interface, crafted with the latest web standards and techniques.
-    JavaScript: The language of interactivity, enhancing the user experience and enabling dynamic features throughout the app.
-    GitHub: Our project is hosted on GitHub, allowing for easy collaboration and version control.
+- ReactJS: The highly efficient and flexible JavaScript library that powers our web app, ensuring lightning-fast performance and a seamless user interface.
+- HTML5 & CSS3: The building blocks of our visually stunning and immersive user interface, crafted with the latest web standards and techniques.
+- JavaScript: The language of interactivity, enhancing the user experience and enabling dynamic features throughout the app.
+- GitHub: Our project is hosted on GitHub, allowing for easy collaboration and version control.
+
+![Short-Stories](/short-stories-webapp.png)
 
 ## Features
 Expansive Short Story Collection
